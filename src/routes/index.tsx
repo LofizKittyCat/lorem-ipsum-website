@@ -1,6 +1,3 @@
-import { A } from "@solidjs/router";
-import Counter from "~/components/Counter";
-
 function Left() {
   return (
     <section class="w-full h-full flex flex-col gap-8 items-start justify-center">
@@ -26,7 +23,7 @@ function Right() {
 
 export default function Home() {
   return (
-    <main class="w-screen min-h-screen flex flex-col items-center justify-center">
+    <main class="w-screen min-h-screen flex flex-col items-center justify-center bg-material">
       <section class="w-full h-full flex flex-col sm:flex-row gap-12 items-center justify-center sm:justify-between px-12 md:px-24 xl:px-50 2xl:px-124">
         <Left/>
         <Right/>

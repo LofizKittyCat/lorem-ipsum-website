@@ -45,7 +45,7 @@ function Logo() {
 
 export default function Nav() {
   return (
-    <nav class="absolute w-screen h-24 flex flex-row items-center justify-between px-8 sm:px-12">
+    <nav class="absolute w-screen h-24 flex flex-row items-center justify-between px-8 sm:px-12 bg-material">
       <Logo/>
       <Links/>
       <BurgerMenu/>
